@@ -1,5 +1,5 @@
 <template>
-  <form class="contact-form" netlify>
+  <form class="contact-form" method="POST" data-netlify data-netlify-site="superb-flan-d5ab3c">
     <label for="name">Name</label>
     <input type="text" name="name" id="name" v-model="formData.name" required />
     <label for="email">Email</label>
