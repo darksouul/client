@@ -14,7 +14,7 @@ export default {
     MyService,
     Example1,
     Example2,
-    ContactMe,
+    ContactForm,
     Footer,
   },
 };
@@ -26,7 +26,7 @@ export default {
   <MyService />
   <Example1 />
   <Example2 />
-  <ContactMe />
+  <ContactForm />
   <Footer />
 </template>
 
