@@ -83,8 +83,8 @@ export default {
           <form
             name="contact"
             method="POST"
-            netlify-honeypot="bot-field"
             data-netlify="true"
+            netlify-honeypot="bot-field"
           >
            
 
@@ -92,14 +92,14 @@ export default {
 
             <div class="grid grid-cols-4 grid-rows-4 gap-4 sm:gap-6 mt-4">
               <input
-                type="text"
+                type="hidden"
                 name="name"
                 placeholder="Name"
                 required
                 class="col-span-4 xl:col-span-2 rounded-md bg-psy-icon-dark-blue/[0.1] p-2 py-4 font-quicksand text-[16px] text-white"
               />
               <input
-                type="email"
+                type="hidden"
                 name="email"
                 placeholder="Email"
                 required
@@ -107,7 +107,7 @@ export default {
               />
 
               <textarea
-                type="text"
+                type="hidden"
                 name="text"
                 placeholder="Message"
                 required
