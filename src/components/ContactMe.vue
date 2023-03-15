@@ -86,20 +86,18 @@ export default {
             data-netlify="true"
             netlify-honeypot="bot-field"
           >
-           
-
             <input type="hidden" name="form-name" value="contact" />
 
             <div class="grid grid-cols-4 grid-rows-4 gap-4 sm:gap-6 mt-4">
               <input
-                type="hidden"
+                type="text"
                 name="name"
                 placeholder="Name"
                 required
                 class="col-span-4 xl:col-span-2 rounded-md bg-psy-icon-dark-blue/[0.1] p-2 py-4 font-quicksand text-[16px] text-white"
               />
               <input
-                type="hidden"
+                type="email"
                 name="email"
                 placeholder="Email"
                 required
@@ -107,7 +105,7 @@ export default {
               />
 
               <textarea
-                type="hidden"
+                type="text"
                 name="text"
                 placeholder="Message"
                 required
